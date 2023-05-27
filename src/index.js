@@ -1,3 +1,4 @@
-import getWeather from './modules/api';
+import getWeather from "./modules/api";
 
-getWeather();
+document.addEventListener('DOMContentLoaded', getWeather('Buenos Aires'));
+getWeather('London');
