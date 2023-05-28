@@ -43,7 +43,7 @@ function displayWeather(data) {
     feelsLike.innerHTML = `Se siente como: ${data.current.feelslike_c} C° o ${data.current.feelslike_f} F°`;
     humidity.innerHTML = `Nivel de humedad: ${data.current.humidity}%`;
 
-    wind.innerHTML = `Viento: ${data.current.wind_kph}kph`;
+    wind.innerHTML = `Viento: ${data.current.wind_kph}km/h`;
 }
 
 export default displayWeather;
