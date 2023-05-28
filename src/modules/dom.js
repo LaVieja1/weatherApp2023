@@ -1,8 +1,8 @@
 const containerForm = document.querySelector('.container-form');
 const containerBtn = document.querySelector('#search-btn')
 const userEntry = document.querySelector('#search');
+
 const cityName = document.querySelector('.city-name');
-const country = document.querySelector('.country');
 const hour = document.querySelector('.city-hour');
 const temp = document.querySelector('.city-temp');
 const tempIcon = document.querySelector('.condition-icon');
@@ -11,5 +11,4 @@ const feelsLike = document.querySelector('.feels-like');
 const humidity = document.querySelector('.humidity');
 const wind = document.querySelector('.wind');
 
-export {containerForm, userEntry, containerBtn, cityName, country, hour, temp, tempIcon,
-        tempDescription, feelsLike, humidity, wind};
+export {containerForm, userEntry, containerBtn, cityName, hour, temp, tempIcon, tempDescription, feelsLike, humidity, wind };

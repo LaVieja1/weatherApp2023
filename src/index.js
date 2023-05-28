@@ -1,5 +1,5 @@
 import getWeather from "./modules/api";
-import { containerForm, userEntry, containerBtn, cityName, country, hour, temp, tempIcon, tempDescription, feelsLike, humidity, wind } from "./modules/dom";
+import { containerForm, userEntry, containerBtn } from "./modules/dom";
 
 let input = 'Buenos Aires'
 
